@@ -79,7 +79,7 @@ list.save();
 res.redirect("/"+customListName);
     }
     else
-    res.render("list", {listTitle: foundList.name, newListItems: foundList.ITEMS});
+    res.render("index", {listTitle: foundList.name, newListItems: foundList.ITEMS});
 
 });
   // console.log(req.params.customListName);// / iske bad jo bhi hoga ajayega
